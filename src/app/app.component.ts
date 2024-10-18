@@ -1,6 +1,6 @@
 import { Component, inject } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { AppShellComponent, NavService } from '../../projects/app-shell/src/public-api';
+import { AppShellComponent, NavService } from 'app-shell';
 
 @Component({
   selector: 'app-root',
