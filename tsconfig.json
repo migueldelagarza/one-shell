@@ -5,7 +5,7 @@
   "compilerOptions": {
     "paths": {
       "app-shell": [
-        "./dist/app-shell"
+        "./projects/app-shell/src/public-api"
       ]
     },
     "outDir": "./dist/out-tsc",

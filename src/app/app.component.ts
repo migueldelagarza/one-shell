@@ -14,7 +14,9 @@ export class AppComponent {
 
   constructor() {
     this.nav.links = [
-      { label: 'Home', route: '/home', icon: 'home' },
+      { label: 'Home', route: '/home', icon: 'home', tooltip: '' },
+      { label: 'Alerts', route: '/alerts', icon: 'info' },
+      { label: 'njsdoh', route: '/home', icon: 'home', tooltip: 'ajdhfladfjalhdfjlahdsfjlasdhfjalsdjfaldsjfhnchuweriohncfshueron' },
     ]
   }
 }

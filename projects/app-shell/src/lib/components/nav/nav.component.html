@@ -5,7 +5,7 @@
     <span>{{link.label}}</span>
   </a>
   }
-  @if (moreLinks()) {
+  @if (moreLinks()?.length) {
     <button mat-icon-button [matMenuTriggerFor]="menu">
       <mat-icon>more_vert</mat-icon>
     </button>

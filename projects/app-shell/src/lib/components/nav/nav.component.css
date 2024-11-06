@@ -3,6 +3,14 @@ nav {
   min-width: 200px;
 }
 
+a {
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 8px;
+  text-overflow: ellipsis;
+}
+
 @media screen and (max-width: 600px) {
   nav {
     display: flex;
@@ -41,8 +49,8 @@ nav {
     height: 100vh;
     max-width: 400px;
   }
-  a {
-    padding: 16px;
-    text-align: left;
+  mat-button {
+    display: flex;
+    justify-content: flex-start;
   }
 }
